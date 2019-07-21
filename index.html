@@ -9,20 +9,22 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./assets/javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    
-    
+
+
     <div class="container">
         <nav class="nav" id="navTop">
-            <h5 class="navbar-brand" class="logo">Jacob Hanes</h5>
-            <a class="nav-link" href="#">Message</a>
-            <a class="nav-link" href="#">Portfolio</a>
+            <div class="logoWrap">
+                <h5 class="navbar-brand" class="logo">Jacob Hanes</h5>
+            </div>
+
+            <button type="button" id="messBtn">Contact</button>
+            <button type="button" id="portBtn">Portfolio</button>
         </nav>
         <div class="row">
             <div class="col">
@@ -34,7 +36,8 @@
                         <div class="row">
                             <div class="col-6">
 
-                                <img src="#">
+                                <img src="./assets/images/15822604_1168837993201946_2383987964546773644_n.jpg"
+                                    width="300px" height="300px">
                             </div>
                             <div class="col-6">
 
@@ -47,6 +50,72 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+
+            <div class="col">
+                <div class="card content" id="contactBox">
+                    <div class="card-header">
+                        Contact
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Jonny Example"
+                                        aria-label="Email" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2">Name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Email@example.com"
+                                        aria-label="Email" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2">Email</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Message</span>
+                                    </div>
+                                    <textarea placeholder="Man your apps are Awesome!!!" class="form-control"
+                                        aria-label="With textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" id="submitBtn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card content" id="portBox">
+                    <div class="card-header">
+                        Portfolio
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 

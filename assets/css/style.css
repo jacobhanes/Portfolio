@@ -21,3 +21,18 @@
 .card-header {
     color: white;
 }
+img {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+button {
+    background-color: #d699ff;
+    color: white;
+    margin: 10px;
+    border-radius: 25px;
+}
+#submitBtn{
+    background-color: #8a00e6;
+    float: right;
+    
+}
