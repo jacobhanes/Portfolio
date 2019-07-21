@@ -1,0 +1,23 @@
+#navTop{
+    background-color: #8a00e6;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+.logo {
+    color: white;
+}
+.content {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 20px;
+    background-color: #8a00e6;
+}
+.card-body {
+    background-color: #d699ff;
+    border-bottom-right-radius: 25px;
+}
+.card-header {
+    color: white;
+}
