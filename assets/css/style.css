@@ -39,3 +39,9 @@ button {
 .projectLink {
     color: white;
 }
+.logoWrap {
+    cursor: pointer;
+}
+body {
+    background-image: url(../images/milky-way-starry-sky-night-sky-star-956981.jpeg);
+}

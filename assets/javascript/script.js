@@ -3,10 +3,12 @@ hideBox();
     
     function hideBox(){
         $("#contactBox").hide();
+        $("#portBox").hide();
     }
     
     $("#messBtn").on("click", function(){
         $("#aboutBox").hide();
+        $("#portBox").hide();
         $("#contactBox").show();
     });
 
@@ -14,5 +16,10 @@ hideBox();
         $("#aboutBox").show();
         hideBox();
     });
+    $("#portBtn").on("click", function(){
+        $("#aboutBox").hide();
+        $("#contactBox").hide();
+        $("#portBox").show();
+    })
     console.log("hello")
 });
