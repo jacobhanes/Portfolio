@@ -38,10 +38,15 @@ button {
 }
 .projectLink {
     color: white;
+    font-size: 30px;
 }
 .logoWrap {
     cursor: pointer;
 }
 body {
-    background-image: url(../images/milky-way-starry-sky-night-sky-star-956981.jpeg);
+    background-image: url(../images/GreyPolygons_1400x900.jpg);
+    color:white;
+}
+.linkList {
+    margin-right: 15px;
 }
