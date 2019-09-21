@@ -1,51 +1,51 @@
 #navTop{
-    background-color: #8a00e6;
-    color: white;
+    background-color: #66d9ff;
+    color: black;
     border-radius: 25px;
     padding: 20px;
     
 }
 .logo {
-    color: white;
+    color: black;
 }
 .content {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     margin-top: 20px;
-    background-color: #8a00e6;
+    background-color: #66d9ff;
 }
 .card-body {
-    background-color: #d699ff;
+    background-color: #ccf2ff;
     border-bottom-right-radius: 25px;
 }
 .card-header {
-    color: white;
+    color: black;
 }
 img {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 button {
-    background-color: #d699ff;
-    color: white;
+    background-color: #ccf2ff;
+    color: black;
     margin: 10px;
     border-radius: 25px;
 }
 #submitBtn{
-    background-color: #8a00e6;
+    background-color: #66d9ff;
     float: right;
     
 }
 .projectLink {
-    color: white;
+    color: black;
     font-size: 30px;
 }
 .logoWrap {
     cursor: pointer;
 }
 body {
-    background-image: url(../images/GreyPolygons_1400x900.jpg);
-    color:white;
+    
+    color:black;
 }
 .linkList {
     margin-right: 15px;
